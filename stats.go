@@ -14,7 +14,7 @@ const (
 	ginRequestMetric = "gin.request"
 )
 
-//Report stats second
+//Report from default metric registry
 func Report() metrics.Registry {
 	return metrics.DefaultRegistry
 }
