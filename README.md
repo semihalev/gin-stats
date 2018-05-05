@@ -1,5 +1,10 @@
 # Gin's middleware for request stats
 
+[![Build Status](https://travis-ci.org/semihalev/gin-stats.svg)](https://travis-ci.org/semihalev/gin-stats)
+[![codecov](https://codecov.io/gh/semihalev/gin-stats/branch/master/graph/badge.svg)](https://codecov.io/gh/semihalev/gin-stats)
+[![Go Report Card](https://goreportcard.com/badge/github.com/semihalev/gin-stats)](https://goreportcard.com/report/github.com/semihalev/gin-stats)
+[![GoDoc](https://godoc.org/github.com/semihalev/gin-stats?status.svg)](https://godoc.org/github.com/semihalev/gin-stats)
+
 Lightweight Gin's middleware for request metrics
 
 ## Usage
