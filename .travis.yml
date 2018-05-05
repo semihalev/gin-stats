@@ -11,7 +11,7 @@ go:
 
 go_import_path: github.com/semihalev/gin-stats
 
-script: go test ./...
+script: go test -v -covermode=atomic -coverprofile=coverage.out
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
