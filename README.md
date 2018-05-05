@@ -25,13 +25,13 @@ import (
 	"fmt"
 	"time"
 
-    "github.com/gin-gonic/gin"
+	"github.com/gin-gonic/gin"
 	"github.com/semihalev/gin-stats"    
 )
 
 func main() {
 	r := gin.Default()
-    r.Use(stats.RequestStats())
+	r.Use(stats.RequestStats())
     
 	r.GET("/stats", func(c *gin.Context) {
 		c.JSON(http.StatusOK, stats.Report())
