@@ -4,6 +4,7 @@
 [![codecov](https://codecov.io/gh/semihalev/gin-stats/branch/master/graph/badge.svg)](https://codecov.io/gh/semihalev/gin-stats)
 [![Go Report Card](https://goreportcard.com/badge/github.com/semihalev/gin-stats)](https://goreportcard.com/report/github.com/semihalev/gin-stats)
 [![GoDoc](https://godoc.org/github.com/semihalev/gin-stats?status.svg)](https://godoc.org/github.com/semihalev/gin-stats)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsemihalev%2Fgin-stats.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsemihalev%2Fgin-stats?ref=badge_shield)
 
 Lightweight Gin's middleware for request metrics
 
@@ -47,3 +48,6 @@ func main() {
 }
 
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsemihalev%2Fgin-stats.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsemihalev%2Fgin-stats?ref=badge_large)
